@@ -1,8 +1,10 @@
 # Data Wrangling Using Pyspark
 ![cover](https://i0.wp.com/www.codeastar.com/wp-content/uploads/2017/07/data_wrangler.png)
 ## Project Aim and Objectives
+
 ___Aim:___
 This project aims to type-cast and transform a log data using the “pyspark” module in Python.
+
 ___Objectives:___
 - To access the zipped log data from a specified external source
 - To extract the zipped data using the “tarfile” module
