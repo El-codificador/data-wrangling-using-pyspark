@@ -1,4 +1,5 @@
 # Data Wrangling Using Pyspark
+![cover](https://i0.wp.com/www.codeastar.com/wp-content/uploads/2017/07/data_wrangler.png)
 ## Project Aim and Objectives
 ___Aim:___
 This project aims to type-cast and transform a log data using the “pyspark” module in Python.
@@ -63,3 +64,6 @@ Here,
 
 ![image](https://github.com/El-codificador/data-wrangling-using-pyspark/assets/91063835/38746098-51b6-46ef-bc7d-aa56516ded68)
 <p><center>Figure 7: Dataframe schema</center></p>
+<hr>
+## Cover Image Reference
+I found this amazing art [here](https://www.codeastar.com/data-wrangling/).
