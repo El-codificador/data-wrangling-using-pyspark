@@ -12,6 +12,7 @@ ___Objectives:___
 The raw data, namely “BGL.log”, contains lines of information of system control failure prompts. 
 ![image](https://github.com/El-codificador/data-wrangling-using-pyspark/assets/91063835/5ebc6680-b83d-4e0c-82f9-cf56e2b781db)
 <p><center>Figure 1: Snippet of raw data</center></p>
+
 The segment of data shown in figure 1 contains the system failure prompts in the first line of which,
 - “-” is the “Alert message flag” for a specific prompt
 - “1117838570” is the “Timestamp” for a specific prompt
@@ -28,12 +29,14 @@ Data are stored in the remaining lines of log in the same format. This data has 
 
 ![image](https://github.com/El-codificador/data-wrangling-using-pyspark/assets/91063835/95e92408-8961-457c-ad54-07b543301b85)
 <p><center>Figure 2: Dataframe schema</center></p>
+
 The length of each of the line varies and needs to be oriented in ten columns where each line should represent each row in the pyspark dataframe.
 
 ## Problem Statement
 This raw data could easily be restructured by separating each content (or word) of each line by the “space” character but this would also separate the “Message Contents” into more than one column like the following.
 ![image](https://github.com/El-codificador/data-wrangling-using-pyspark/assets/91063835/20c49cd2-dd19-486b-919b-55d1d2a2af5d)
 ![image](https://github.com/El-codificador/data-wrangling-using-pyspark/assets/91063835/7289f833-6258-45b8-89c4-0357096d642b)
+
 Other than restructuring, the variables (or the columns) of the dataframe also need to be type-casted as the entire raw data is of “string” type (object type).
 
 ![image](https://github.com/El-codificador/data-wrangling-using-pyspark/assets/91063835/8d4d9cfa-3078-495a-b39d-e992a1352bb9)
@@ -60,12 +63,3 @@ Here,
 
 ![image](https://github.com/El-codificador/data-wrangling-using-pyspark/assets/91063835/38746098-51b6-46ef-bc7d-aa56516ded68)
 <p><center>Figure 7: Dataframe schema</center></p>
-
-
-
-
-
-
-
-
-
