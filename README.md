@@ -68,5 +68,6 @@ Here,
 ![image](https://github.com/El-codificador/data-wrangling-using-pyspark/assets/91063835/38746098-51b6-46ef-bc7d-aa56516ded68)
 <p><center>Figure 7: Dataframe schema</center></p>
 <hr>
+
 ## Cover Image Reference
 I found this amazing art [here](https://www.codeastar.com/data-wrangling/).
